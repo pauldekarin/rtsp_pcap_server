@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <groupId>com.company.pauldekarin</groupId>
+    <artifactId>rtsp-pcap-server</artifactId>
+    <version>0.0.1</version>
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+    <jnetpcap.version>2.3.0</jnetpcap.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>sonatype-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </repository>
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>com.slytechs.jnet.jnetpcap</groupId>
+            <artifactId>jnetpcap-wrapper</artifactId>
+            <version>${jnetpcap.version}</version>
+        </dependency>
+    </dependencies>
+</project>
